@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: repeating-linear-gradient(
+        90deg, 
+        #f382bb,
+        #f382bb 20px, 
+        #baf1b8 20px, 
+        #baf1b8 40px 
+    );
+    color: #615e5e;
+    line-height: 1cm;
+}
+
+header {
+    background: #f382bb;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+    font-size: 1.5em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    color:#baf1b8
+}
+
+main {
+    max-width: 800px;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    text-align:justify;
+    margin-bottom: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f382bb;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #f382bb;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-logo img {
+    max-width: 170px;
+}
+
+.footer-info, .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form label, footer form input, footer form textarea, footer form button {
+    margin-bottom: 0.5em;
+}
+
+footer form input, footer form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer form button {
+    background: #f358a6;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer form button:hover {
+    background: #ff1493;
+}
